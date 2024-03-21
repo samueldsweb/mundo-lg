@@ -13,6 +13,7 @@
   <body class="bg-body--lg">
     <div class="container">
         <header>
+            <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-navbar--lg rounded--lg mt-4">
                 <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="assets/images/logo_mimundolg.svg" alt="mi mundo LG" width="180"></a>
@@ -21,41 +22,77 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ranking</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Biblioteca</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Salir</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ranking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Biblioteca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Salir</a>
+                        </li>
                     </ul>
                 </div>
                 </div>
             </nav>
         </header>
         <main class="row mt-5">
+            <!-- Container  Side-->
             <aside class="col-md-4">
+                <!-- Box Profile -->
                 <div class="card-profile--lg">
                     <div class="profile-picture--lg">
                         <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="Imagen de perfil" class="profile-picture">
                     </div>
-                    <h5 class="text-center fw-bold mt-3">!Hola $NombreColaborador!</h5>
-                    <p class="text-center mb-0">$Cargo <br> $PuestoDelColaborador </p>
+                    <h5 class="text-center fw-bold mt-3">!Hola Pablo López!</h5>
+                    <p class="text-center mb-0">Coordinador <br> Área de Desarrollo Personal </p>
+                </div>
+                <!-- Box Points LG -->
+                <div class="card-white--lg">
+                    <span class="text-medium fw-bold mb-1">Años luz</span>
+                    <h2 class="text-bigger c-red">99.999 <span class="text-regular c-black">PTS.</span></h2>
+                    <span class="text-medium fw-bold mb-1">LG MÁS</span>
+                    <h2 class="text-bigger c-red">99.999 <span class="text-regular c-black">PTS.</span></h2>
+                </div>
+                <!-- Box Ranking -->
+                <div class="card-white--lg position-relative">
+                    <div class="decorative-blur"></div>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="fw-bold">Ranking de Puntos</h5>
+                        <img src="assets/icons/ranking.svg" alt="" class="box-home-icon">
+                    </div>
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <div class="profile-picture-small--lg me-3">
+                            <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="Imagen de perfil" class="profile-picture-small">
+                        </div>
+                        <p class="mb-0 fw-bold">Catalina Soto <span class="c-red">/ 99.999</span> </p>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <div class="profile-picture-small--lg me-3">
+                            <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Imagen de perfil" class="profile-picture-small">
+                        </div>
+                        <p class="mb-0 fw-bold">Constanza Muñoz <span class="c-red">/ 99.999</span> </p>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <div class="profile-picture-small--lg me-3">
+                            <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="Imagen de perfil" class="profile-picture-small">
+                        </div>
+                        <p class="mb-0 fw-bold">Daniela Leiva <span class="c-red">/ 99.999</span> </p>
+                    </div>
                 </div>
             </aside>
+            <!-- Container Main -->
             <section class="col-md-8">
-                <div class="contentainer-home--lg">
+                <div class="contentainer-home--lg mb-4">
                     <div class="row">
                         <div class="col-md-4">
-                            <article class="box-home--lg">
+                            <article class="box-home--lg mb-3">
                                 <div class="d-flex justify-content-between">
                                     <h3 class="fw-bold">Perfil</h3>
                                     <img src="assets/icons/profile.svg" alt="" class="box-home-icon">
@@ -67,7 +104,7 @@
                             </article>
                         </div>
                         <div class="col-md-4">
-                            <article class="box-home--lg">
+                            <article class="box-home--lg mb-3">
                                 <div class="d-flex justify-content-between">
                                     <h3 class="fw-bold">Cursos</h3>
                                     <img src="assets/icons/courses.svg" alt="" class="box-home-icon">
@@ -79,7 +116,7 @@
                             </article>
                         </div>
                         <div class="col-md-4">
-                            <article class="box-home--lg">
+                            <article class="box-home--lg mb-3">
                                 <div class="d-flex justify-content-between">
                                     <h3 class="fw-bold">Desafíos</h3>
                                     <img src="assets/icons/challenges.svg" alt="" class="box-home-icon">
@@ -126,6 +163,51 @@
                                 </div>
                             </article>
                         </div>
+                    </div>
+                </div>
+                <div class="text-end mb-2">
+                    <a href="#" class="btn-circle-carousel--lg" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <img src="assets/icons/arrow-previus.png">
+                    </a>
+                    <a href="#" class="btn-circle-carousel--lg" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <img src="assets/icons/arrow-next.png">
+                    </a>
+                </div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-bs-interval="false">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card-carousel--lg">
+                            <div class="d-flex">
+                                <div class="p-3">
+                                    <h3>Banner Footer 1</h3>
+                                    <p>Promoción de canje de puntos, promoción de programas para colaboradores, nuevos cursos y más.</p>
+                                </div>
+                                <img src="https://picsum.photos/id/7/300/100" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card-carousel--lg">
+                            <div class="d-flex">
+                                <div class="p-3">
+                                    <h3>Banner Footer 2</h3>
+                                    <p>Promoción de canje de puntos, promoción de programas para colaboradores, nuevos cursos y más.</p>
+                                </div>
+                                <img src="https://picsum.photos/id/20/300/100" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card-carousel--lg">
+                            <div class="d-flex">
+                                <div class="p-3">
+                                    <h3>Banner Footer 3</h3>
+                                    <p>Promoción de canje de puntos, promoción de programas para colaboradores, nuevos cursos y más.</p>
+                                </div>
+                                <img src="https://picsum.photos/id/119/300/100" alt="">
+                            </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </section>

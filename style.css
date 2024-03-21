@@ -31,6 +31,34 @@ h1, h2, h3, h4, h5 {
     color: var(--black-color)
 }
 
+.c-red {
+    color: var(--active-red)
+}
+
+.c-black {
+    color: var(--black-color);
+}
+
+.text-regular {
+    font-size: 16px;
+}
+
+.text-medium {
+    font-size: 20px;
+}
+
+.text-big {
+    font-size: 32px;
+}
+
+.text-bigger {
+    font-size: 40px;
+}
+
+.text-giant {
+    font-size: 60px;
+}
+
 .bg-body--lg {
     background-color: var(--warm-grey);
 }
@@ -58,11 +86,11 @@ h1, h2, h3, h4, h5 {
 .card-profile--lg {
     border-radius: 1rem;
     padding: 1rem;
+    margin-bottom: 2rem;
     background-image: url(assets/images/bg-container-profile.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 
 .profile-picture--lg {
@@ -79,6 +107,19 @@ h1, h2, h3, h4, h5 {
     display: block;
 }
 
+.profile-picture-small--lg {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+.profile-picture-small {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .contentainer-home--lg {
     padding: 1rem;
     border-radius: 1rem;
@@ -89,7 +130,6 @@ h1, h2, h3, h4, h5 {
     min-height: 260px;
     padding: 1rem;
     border-radius: .5rem;
-    margin-bottom: 1rem;
     background-color: var(--white-color);
 }
 
@@ -106,4 +146,48 @@ h1, h2, h3, h4, h5 {
     line-height: 50px;
     text-decoration: none;
     background-color: #FD312E;
+}
+
+.btn-circle-carousel--lg {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: var(--white-color);
+}
+
+.btn-circle-carousel--lg img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-white--lg {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: var(--white-color);
+}
+
+.card-carousel--lg {
+    border-radius: 1rem;
+    background-color: var(--white-color);
+}
+
+.card-carousel--lg img {
+    border-radius: 4rem 1rem 1rem 0rem;
+}
+
+.decorative-blur {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 115px;
+    height: 115px;
+    border-radius: 0 1rem;
+    background-image: url('assets/images/circle-red-blur.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
